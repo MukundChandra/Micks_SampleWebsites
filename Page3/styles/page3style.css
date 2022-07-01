@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color:grey;
+}
+
+.myheader {
+	margin: 20px;
+	border: 5px;
+	border-style: solid;
+	border-radius: 20px;
+	background-color: beige;
+}
+
+.myheader p {
+	text-align: center;
+	font-size: 30px;
+}
+
+.mynavpane {
+	margin: 20px;
+	border: 5px;
+	border-style: solid;
+	border-radius: 20px;
+	background-color: beige;
+}
+
+.mynavpanebutton {
+	width: 20%;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mynavpanebutton::after {
+	clear: both;
+}
+
+.clearhack {
+	width: 100%;
+	visibility: hidden;
+}
