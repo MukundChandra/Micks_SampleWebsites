@@ -1,0 +1,29 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+#colortest {
+	color: red;
+}
+
+#colortest:hover {
+	animation-name: changemycolor;
+	animation-duration: 5s;
+}
+
+#transitiontest {
+	color: blue;
+	background-color: gray;
+	width: 400px;
+	transition: width 2s;
+}
+
+#transitiontest:hover {
+	width: 600px;
+}
+
+@keyframes changemycolor {
+	0%		{ color: red; }
+	100%	{ color: blue;}
+}

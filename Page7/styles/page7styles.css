@@ -1,0 +1,9 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.mainfact {
+	background-color: grey;
+	font-size: large;
+}
